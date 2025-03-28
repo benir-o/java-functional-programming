@@ -7,6 +7,7 @@ public class _Supplier {
         System.out.println(getDBConnectionUrl());
         System.out.println(getDBConnectionUrlSupplier.get());
         //test
+        //test2
     }
     static String getDBConnectionUrl(){
         return "jdbc://localhost:5432/users";
