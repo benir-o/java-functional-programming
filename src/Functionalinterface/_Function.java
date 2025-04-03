@@ -12,7 +12,7 @@ public class _Function {
         int increment2=incrementByOneFunction.apply(1);
         System.out.println(increment2);
 
-        int multiplyBy10 = multiplyBy10Function .apply(increment2);
+        int multiplyBy10 = multiplyBy10Function.apply(increment2);
         System.out.println(multiplyBy10);
 
         Function<Integer,Integer> incrementBy1andThenMultiplyBy10=
