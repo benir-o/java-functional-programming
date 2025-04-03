@@ -28,10 +28,11 @@ public class _Stream {
 //        people.stream().map(personStringFunction)
 //                .mapToInt(stringToIntFunction)
 //                .forEach(println);
-        Predicate<Person> personPredicate = person -> FEMALE.equals(person.gender);
-        boolean containsOnlyFemales = people.stream()
-                .anyMatch(personPredicate);
-        System.out.println(containsOnlyFemales);
+//        Predicate<Person> personPredicate = person -> FEMALE.equals(person.gender);
+//        boolean containsOnlyFemales = people.stream()
+//                .anyMatch(personPredicate);
+//        System.out.println(containsOnlyFemales);
+        people.stream().allMatch(m->m.gender.equals(m.gender));
 
     }
     static class Person {
